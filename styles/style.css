@@ -126,7 +126,7 @@ ol {
   line-height: 94%;
   text-transform: uppercase;
   color: #fff;
-  padding-bottom: 26px;
+  padding-bottom: 18px;
 }
 
 .content__accent{
@@ -147,6 +147,7 @@ ol {
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 6px;
+  padding-top: 6px;
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
@@ -212,6 +213,8 @@ ol {
 
 .search-form__textfield{
   font-family: 'Fira Sans Condensed', sans-serif ;
+  font-size: 18px;
+  font-weight: 400;
   border-left: none;
   border-right: none;
   border-bottom: white 1px solid;
@@ -221,8 +224,6 @@ ol {
   appearance: none;
   outline: none;
   min-width: 225px;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 
@@ -260,11 +261,12 @@ ol {
 }
 
 .button{
+  font-family: 'Fira Sans Condensed', sans-serif;
   border: 1px solid #fff;
   color: #fff;
   background-color: transparent;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   cursor: pointer
 }
@@ -276,7 +278,7 @@ ol {
   min-height: 34px;
   align-items:end;
   padding: 0;
-  margin-top: 36px;
+  align-self: end;
 }
 
 .more-button{
