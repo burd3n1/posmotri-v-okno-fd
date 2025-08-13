@@ -62,10 +62,6 @@ ol {
   margin: 0;
 }
 
-.result{
-
-}
-
 
 .search-form{
   display: flex;
@@ -122,10 +118,6 @@ ol {
   flex-grow: 1;
 }
 
-.search-form__fieldset-title{
-  font-weight: 400;
-  font-size: 18px;
-}
 
 .title{
   font-family: 'Oswald', sans-serif;
@@ -163,7 +155,7 @@ ol {
 }
 
 .content__video-card-description{
-  font-family: "Fira Sans Condensed Regular", sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 90%;
@@ -175,7 +167,7 @@ ol {
   text-overflow: ellipsis;
 }
 
-.visually-hidden {
+.visually-hidden{
   position: absolute;
   inline-size: 1px;
   block-size: 1px;
@@ -191,15 +183,18 @@ ol {
 }
 
 .search-form__fieldset{
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
   border: none;
 }
 
 .search-form__fieldset-title{
-  font-family: 'Fira Sans Condensed Regular' , sans-serif;
+  font-family: 'Fira Sans Condensed' , sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  padding-bottom: 10px;
-  padding-top: 18px;
+  font-size: 18px;
+  padding-top: 13px;
+  padding-bottom: 5px;
 }
 
 .search-form__label{
@@ -209,13 +204,14 @@ ol {
 }
 
 .search-form__label-text{
-  font-family: 'Fira Sans Condensed Regular', sans-serif;
-  font-size: 16px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
   padding-left: 5px;
 }
 
 .search-form__textfield{
-  font-family: 'Fira Sans Condensed Regular', sans-serif ;
+  font-family: 'Fira Sans Condensed', sans-serif ;
   border-left: none;
   border-right: none;
   border-bottom: white 1px solid;
@@ -231,10 +227,10 @@ ol {
 
 
 .search-form__textfield::placeholder{
-  font-family: "Fira Sans Condensed Regular", sans-serif ;
+  font-family: "Fira Sans Condensed", sans-serif ;
   color: rgb(255 255 255 / 0.7);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .search-form__pseudo-checkbox{
@@ -300,7 +296,7 @@ button:hover{
   background-color: #545050;
 }
 
-.content__card-link_:active{
+.content__card-link:active{
   background-color: #545050;
 }
 
